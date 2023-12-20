@@ -17,8 +17,6 @@ public class searchdata {
         }
     }
     
-
-    //SEARCH NAMA ILMIAH FLORA / FAUNA
     public <T extends FF> ArrayList<T> searchNamaIlmiah(String namaIlmiah, ArrayList<T> dataList) {
         ArrayList<T> result = new ArrayList<T>();
         for (int i = 0; i < dataList.size(); i++) {
@@ -32,8 +30,7 @@ public class searchdata {
             return result;
         }
     }
-    
-    // Search by family
+
     public <T extends FF> ArrayList<T> searchFamili(String family, List<T> dataList) {
         ArrayList<T> result = new ArrayList<T>();
         for (int i = 0; i < dataList.size(); i++) {
